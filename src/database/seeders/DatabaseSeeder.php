@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Payment;
 use App\Models\Schedule;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -20,6 +21,7 @@ class DatabaseSeeder extends Seeder
             ClubSeeder::class,
             ScheduleSeeder::class,
             PlayerSeeder::class,
+            PaymentSeeder::class,
         ]);
     }
 }
